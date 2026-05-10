@@ -115,10 +115,10 @@ bool checkUID(String uid) {
 ## Simulation
 
 ### Access Granted
-![Access Granted](Simulation_I_Access_Grant.png)
+![Access Granted](Simulation I - Access grant.png)
 
 ### Access Denied
-![Access Denied](Simulation_II_Access_Denied.png)
+![Access Denied](Simulation II - Access Denied.png)
 
 ---
 
