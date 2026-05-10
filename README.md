@@ -1,4 +1,4 @@
-markdown# Keypad-Based Lab Access Control System
+# Keypad-Based Lab Access Control System
 
 ## Overview
 
@@ -115,10 +115,10 @@ bool checkUID(String uid) {
 ## Simulation
 
 ### Access Granted
-![Access Granted](Simulation I - Access grant.png)
+![Access Granted](Simulation_I_Access_Grant.png)
 
 ### Access Denied
-![Access Denied](Simulation II - Access Denied.png)
+![Access Denied](Simulation_II_Access_Denied.png)
 
 ---
 
