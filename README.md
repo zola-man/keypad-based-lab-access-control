@@ -17,11 +17,6 @@ credential systems including RFID (RC522), NFC, and Bluetooth-based
 access control, where the keypad input is replaced by a wireless 
 reader that passes the credential UID to the same validation logic.
 
-This project connects to active research on physical-layer 
-authentication and IoT device security, where wireless sensing 
-modalities including RFID are used to continuously verify 
-device and user identity [1][2].
-
 ---
 
 ## System Architecture
@@ -150,7 +145,7 @@ microcontroller firmware. A production deployment would require:
 - Tamper detection on the hardware enclosure
 
 These limitations reflect an active research area in 
-physical-layer security for IoT and RFID systems [1][2].
+physical-layer security for IoT and RFID systems.
 
 ---
 
@@ -166,22 +161,6 @@ surfaces that are the subject of active academic research:
 - **Side-channel attacks:** inferring credentials from power 
   or timing patterns
 - **Sensing-based inference:** using passive RFID arrays to 
-  infer user behavior without direct card interaction [1]
+  infer user behavior without direct card interaction
 
-Recent work demonstrates that passive RFID arrays placed beneath 
-keyboards can infer keystrokes without any active reader 
-interaction [1], highlighting the dual-use nature of wireless 
-sensing technology in security contexts. This project builds 
-foundational understanding of the authentication logic that 
-such attacks target.
-
----
-
-## References
-
-- [1] J. Li, Y. Zhang, D. Han, A. Li, T. Li, and Y. Zhang, 
-  "TagStroke: Stealthy keystroke inference via passive RFID 
-  arrays beneath keyboards," IEEE INFOCOM, Tokyo, Japan, 2026.
-- [2] A. Almeajel, Y. Zhang, T. Li, and Y. Zhang, "mmRhythm: 
-  Secure and usable user authentication for IoT devices based 
-  on hand-tapping patterns," IEEE MILCOM, Los Angeles, 2025.
+This project builds foundational understanding of the authentication logic that such attacks target.
